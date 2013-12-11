@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="http://d3js.org/d3.v2.js"></script>
+<title>Cross-Reading</title>
+<style type="text/css">
+	body, input, textarea, select, a {
+	font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+	font-size: 13px;
+	color: #444;
+	font-weight: normal;
+	line-height: 2;
+	}
+	
+	body{padding-left:1em}
+	
+	p {display: inline; font-weight:bold; }
+	
+	a {color: #1F8CE6; }
+	
+	svg {position: fixed; top: 0; left: 20%; width: 80%; height: 100%}
+	
+	.link { stroke: #999; stroke-opacity: .6;}
+	
+	.node {cursor:pointer; }
+	.nodetext { pointer-events: none; }
+
+	.legende {padding:1.5%; width:10%;
+	border-color: rgb(160, 160, 160);
+	border-radius: 0.5em;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: -0.5em 0.5em 0.5em rgb(238, 238, 238);}
+
+	.legende h1 {font-size: 13px; font-weight:normal; text-decoration:underline; }
+	
+	.auteur {fill:#FF7F0E; color:#FF7F0E;}
+	.version {fill:#9467BD; color:#9467BD}
+	.essence {fill:#C5B0D5; color:#C5B0D5}
+	.partie_extensive {fill: #AEC7E8; color:#AEC7E8}
+	.objet_textuel {fill: #1F77B4; color:#1F77B4}
+	.document {fill: #2CA02C; color:#2CA02C}
+	.section {fill: #98DF8A; color:#98DF8A}
+	.concept {fill: #D62728; color:#D62728}
+	
+	circle {stroke: white; stroke-width: 1.5px; }
+	
+</style>
+
+</head>
+
+<body>
+
+<br><p>Drag&drop pour fixer les éléments.</p><br><br>
+
+<a href onclick="filter_classes=['essence']; if(oeuvre_choisie!=null) point(oeuvre_choisie); return false;">Revenir a la vue initiale de l'oeuvre</a><br>
+
+<!-- L'actualisation de la page par le clic sur le lien produit le retour au début -->
+<a href onclick="">Revenir au corpus</a><br>
+
+<a href onclick="window.open('ontologie.png');return false;">Consultez l'ontologie de Cross-Reading</a><br>
+
+<br><br><br><br><br><br>
+
+<div class="legende">
+	<h1>Légende des couleurs</h1>
+	<p class="essence">Essence</p><br>
+	<p class="document">Document</p><br>
+	<p class="version">Version</p><br>
+	<p class="auteur">Auteur</p><br>
+	<p class="partie_extensive">Partie extensive</p><br>
+	<p class="objet_textuel">Objet Textuel</p><br>
+	<p class="section">Section</p><br>
+	<p class="concept">Concept</p>
+</div>
+
+<script type="text/javascript">
+
+var oeuvre_choisie=null;
+
+var filter_classes=['essence'];
+
+var w = window.innerWidth*0.80,
+    h = window.innerHeight
+
+var vis = d3.select("body").append("svg:svg");
+
+d3.json("graph.json", function(json) {
+
+    var force = self.force = d3.layout.force()
+        .nodes(json.nodes)
+        .links(json.links)
+        .gravity(.1)
+        .distance(100)
+        .charge(-100)
+        .size([w, h])
+		.start();
+
+    var link = vis.selectAll("line.link")
+        .data(json.links)
+        .enter().append("svg:line")
+        .attr("class", "link")
+        .attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+	
+    var node_drag = d3.behavior.drag()
+        .on("dragstart", dragstart)
+        .on("drag", dragmove)
+        .on("dragend", dragend);
+ 
+    var node = vis.selectAll("g.node")
+        .data(json.nodes)
+		.enter().append("svg:g")
+        .attr("class", "node")
+		.call(node_drag);
+
+	var circulo = node.append("svg:circle")
+        .attr("class", function(d){ return d.class})
+		.attr("r", function(d){ return d.class=='essence'|| d.class=='document'? '8px' : '6px'; })
+		.on("click", point);
+		
+	circulo.append("svg:title")
+		.text(listProp);
+
+    node.append("svg:text")
+        .attr("class", "nodetext")
+        .attr("dx", 12)
+        .attr("dy", ".35em")
+		.attr("style", function(d){ return d.class=='essence'|| d.class=='document'? 'font:11px sans-serif;' : 'font:10px sans-serif;' })
+        .text(function(d) { return d.name });
+
+    force.on("tick", tick);
+	
+	// À l'état initiale on ne montre que les essences, c.a.d. le corpus.
+	filter(0,[], filter_classes);
+
+    function tick() {
+      link.attr("x1", function(d) { return d.source.x; })
+          .attr("y1", function(d) { return d.source.y; })
+          .attr("x2", function(d) { return d.target.x; })
+          .attr("y2", function(d) { return d.target.y; });
+
+      node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+    };
+
+   function dragstart(d, i) {
+        force.stop() // stops the force auto positioning before you start dragging
+    }
+
+    function dragmove(d, i) {
+        d.px += d3.event.dx;
+        d.py += d3.event.dy;
+        d.x += d3.event.dx;
+        d.y += d3.event.dy; 
+        tick(); // this is the key to make it work together with updating both px,py,x,y on d !
+    }
+
+    function dragend(d, i) {
+        d.fixed = true; // of course set the node to fixed so the force doesn't include the node in its auto positioning stuff
+        tick();
+        force.resume();
+    }
+	
+	function listProp(d) { 
+		list=d.class+' : '+d.name+'\n';
+		for (var property in d)
+		{
+			if (['index', 'class', 'name', 'weight', 'x', 'y', 'px', 'py', 'filters'].indexOf(property) == -1) 
+			
+				list += property+' : '+d[property]+'\n'; 
+		};
+		return list; 	
+	};
+});
+
+function filter(opacity, filters, classes) {
+	
+	vis.selectAll("g.node").style("fill-opacity", function(o) {
+		var thisOpacity = (filters.length === 0 || contain(filters,o.filters)) && (classes.length === 0 || classes.indexOf(o.class) >= 0)? 1 : opacity;
+		this.setAttribute('style', "stroke-opacity:"+thisOpacity);
+		return thisOpacity;
+	});
+
+	vis.selectAll("line.link").style("stroke-opacity", function(o) {
+		return (filters.length === 0 || (contain(filters,o.source.filters) && contain(filters,o.target.filters))) && (classes.length === 0 || (classes.indexOf(o.source.class) >= 0 && classes.indexOf(o.target.class) >= 0))? 0.6 : opacity;
+	});
+	
+}
+
+function contain(arr1,arr2)
+{
+	var arr2ContainArr1 = true;
+	var arr1ContainArr2 = true;
+	
+	for (i = arr1.length - 1; i>=0; i--) 
+	{
+		if (arr2.indexOf(arr1[i]) == -1)
+			arr2ContainArr1 = false;
+	}
+	for (i = arr2.length - 1; i>=0; i--) 
+	{
+		if (arr1.indexOf(arr2[i]) == -1)
+			arr1ContainArr2 = false;
+	}
+	
+	return arr2ContainArr1 || arr1ContainArr2;
+}
+
+function point(d)
+{
+	if(d.class=='essence')
+		{
+			filter_classes.push('version','document','auteur');
+			oeuvre_choisie=d;
+		}
+		
+	if(d.class=='version')
+		filter_classes.push('partie_extensive','objet_textuel');
+		
+	if(d.class=='document')
+		filter_classes.push('section','concept');
+		
+	if(d.class=='section' || d.class=='concept' || d.class=='objet_textuel')
+		filter_classes.push('auteur','section','concept','objet_textuel','partie_extensive');
+	
+	if(d.class!='partie_extensive')
+		filter(0, d.filters, filter_classes);
+		
+	// Si hay nodos sueltos y pequeños, deben desaparecer
+	vis.selectAll("g.node").style("fill-opacity", function(o) {
+		
+		// por default queda como está
+		thisOpacity = this.style.getPropertyValue("fill-opacity");
+		
+		if (this.style.getPropertyValue("fill-opacity") == 1)
+		{
+			if(this.firstChild.getAttribute("r")=="6px")
+			{
+				var tieneLinks = false;
+				vis.selectAll("line.link").each(function(d)
+				{
+					if((d.target == o || d.source == o) && this.style.getPropertyValue("stroke-opacity") == 0.6)
+						tieneLinks = true;
+				});
+				if (!tieneLinks)
+				{
+					var thisOpacity = 0;
+					this.setAttribute('style', "stroke-opacity:"+thisOpacity);
+				}
+			}
+		}
+		return thisOpacity;
+	});
+	
+}
+
+</script>
+
+</body>
+</html>

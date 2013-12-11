@@ -1,0 +1,1530 @@
+﻿{
+	"nodes": [{
+		"index": 0,
+		"class": "auteur",
+		"name": "A. Saemmer",
+		"filters": ["Tramway",
+		"Mimetic aesthetics",
+		"Aesthetics of the ephemeral",
+		"Material metaphor",
+		"Mimetic work",
+		"Dual sign",
+		"Representation through data",
+		"Ternary representation",
+		"Meta-reading",
+		"Retinal persistence"]
+	},
+	{
+		"index": 1,
+		"class": "version",
+		"name": "revue BleuOrange",
+		"date": "20/03/2009",
+		"duree": "infinie",
+		"filters": ["Tramway",
+		"Mimetic aesthetics",
+		"Aesthetics of the ephemeral",
+		"Material metaphor",
+		"Mimetic work",
+		"Dual sign",
+		"Representation through data",
+		"Ternary representation",
+		"Meta-reading",
+		"Retinal persistence"]
+	},
+	{
+		"index": 2,
+		"class": "essence",
+		"name": "Tramway",
+		"filters": ["Tramway",
+		"Mimetic aesthetics",
+		"Aesthetics of the ephemeral",
+		"Material metaphor",
+		"Mimetic work",
+		"Dual sign",
+		"Representation through data",
+		"Ternary representation",
+		"Meta-reading",
+		"Retinal persistence"]
+	},
+	{
+		"index": 3,
+		"class": "partie_extensive",
+		"name": "transitoire observable",
+		"filters": []
+	},
+	{
+		"index": 4,
+		"class": "objet_textuel",
+		"name": "translucent images, passing clouds and flowing rivers",
+		"filters": ["Tramway",
+		"Aesthetics of the ephemeral"]
+	},
+	{
+		"index": 5,
+		"class": "document",
+		"name": "Cross-analysis of Tramway",
+		"date": "ELO 2012",
+		"adresse": "Morgantown",
+		"circonstance": "conférence",
+		"filters": ["Tramway",
+		"Mimetic aesthetics",
+		"Aesthetics of the ephemeral",
+		"Material metaphor",
+		"Mimetic work",
+		"Dual sign",
+		"Representation through data",
+		"Ternary representation",
+		"Meta-reading"]
+	},
+	{
+		"index": 6,
+		"class": "section",
+		"name": 1,
+		"debut": "P 2 – L 32",
+		"fin": "P 2 – L 40",
+		"filters": ["Tramway",
+		"Aesthetics of the ephemeral"]
+	},
+	{
+		"index": 7,
+		"class": "concept",
+		"name": "Aesthetics of the ephemeral",
+		"definition": "accepting lability as a natural disturbance giving an inevitable unpredictibility of the work.",
+		"filters": ["Tramway",
+		"Aesthetics of the ephemeral"]
+	},
+	{
+		"index": 8,
+		"class": "objet_textuel",
+		"name": "resilient popups",
+		"filters": ["Tramway",
+		"Material metaphor"]
+	},
+	{
+		"index": 9,
+		"class": "section",
+		"name": 2,
+		"debut": "P 4 – L 28",
+		"fin": "P 4 – L 34",
+		"filters": ["Tramway",
+		"Material metaphor"]
+	},
+	{
+		"index": 10,
+		"class": "concept",
+		"name": "Material metaphor",
+		"definition": "transfert of the meaning from a media to a physical artefact.",
+		"filters": ["Tramway",
+		"Material metaphor"]
+	},
+	{
+		"index": 11,
+		"class": "auteur",
+		"name": "K. Hayles",
+		"filters": ["Tramway",
+		"Material metaphor"]
+	},
+	{
+		"index": 12,
+		"class": "objet_textuel",
+		"name": "texte-auteur",
+		"filters": ["Tramway",
+		"Mimetic work"]
+	},
+	{
+		"index": 13,
+		"class": "section",
+		"name": 3,
+		"debut": "P 4 - L 41",
+		"fin": "P 5 - L 4",
+		"filters": ["Tramway",
+		"Mimetic work"]
+	},
+	{
+		"index": 14,
+		"class": "concept",
+		"name": "Mimetic work",
+		"definition": "work for which the source only describes a transitoire observable without any other semiotic representation. The concept of mimetic work is a limit concept, there probably exist no work that is only mimetic.",
+		"filters": ["Tramway",
+		"Mimetic work"]
+	},
+	{
+		"index": 15,
+		"class": "auteur",
+		"name": "P. Bootz",
+		"filters": ["Tramway",
+		"Mimetic work",
+		"Dual sign",
+		"Representation through data",
+		"Ternary representation",
+		"Meta-reading"]
+	},
+	{
+		"index": 16,
+		"class": "partie_extensive",
+		"name": "code source",
+		"filters": []
+	},
+	{
+		"index": 17,
+		"class": "objet_textuel",
+		"name": "main scene",
+		"filters": ["Tramway",
+		"Dual sign"]
+	},
+	{
+		"index": 18,
+		"class": "section",
+		"name": 4,
+		"debut": "P 9 – L 1",
+		"fin": "P9 - L17",
+		"filters": ["Tramway",
+		"Dual sign"]
+	},
+	{
+		"index": 19,
+		"class": "concept",
+		"name": "Dual sign",
+		"definition": "sign for a meta-reader for which the stimulus is distributed on 2 distinct domains, typically the source and the transitoire observable or the transitoire observable and the gesture of the reader.",
+		"filters": ["Tramway",
+		"Dual sign"]
+	},
+	{
+		"index": 20,
+		"class": "objet_textuel",
+		"name": "mask images and scenario",
+		"filters": ["Tramway",
+		"Representation through data"]
+	},
+	{
+		"index": 21,
+		"class": "section",
+		"name": 5,
+		"debut": "P 9 - L 18",
+		"fin": "P 10 - L27",
+		"filters": ["Tramway",
+		"Representation through data"]
+	},
+	{
+		"index": 22,
+		"class": "concept",
+		"name": "Representation through data",
+		"definition": "property of a dual sign for which a data of the source is not present as it in the transitoire observable, giving a difference between the meaning or aesthetic behaviour of this data in the texte-auteur and the meaning or aesthetic behavior of the part of the texte-à-voir involving this data. A representation through data manifests a rhetorical transformation between the texte-auteur and the texte-à-voir.",
+		"filters": ["Tramway",
+		"Representation through data"]
+	},
+	{
+		"index": 23,
+		"class": "objet_textuel",
+		"name": "scripts",
+		"filters": ["Tramway",
+		"Ternary representation"]
+	},
+	{
+		"index": 24,
+		"class": "section",
+		"name": 6,
+		"debut": "P 10 - L 28",
+		"fin": "P 11 - L 3",
+		"filters": ["Tramway",
+		"Ternary representation"]
+	},
+	{
+		"index": 25,
+		"class": "concept",
+		"name": "Ternary representation",
+		"definition": "sign accessible in meta-reading whose stimulus is distributed on 3 domains: into the source, into the transitoire observable and into the interactive gesture of the reader.",
+		"filters": ["Tramway",
+		"Ternary representation"]
+	},
+	{
+		"index": 26,
+		"class": "objet_textuel",
+		"name": "texte-auteur",
+		"filters": ["Tramway",
+		"Meta-reading"]
+	},
+	{
+		"index": 27,
+		"class": "section",
+		"name": 7,
+		"debut": "P 11 – L 5",
+		"fin": "P 11 - L 11",
+		"filters": ["Tramway",
+		"Meta-reading"]
+	},
+	{
+		"index": 28,
+		"class": "concept",
+		"name": "Meta-reading",
+		"definition": "modality of reception that access other parts of the apparatus than the only transitoire observable.",
+		"filters": ["Tramway",
+		"Meta-reading"]
+	},
+	{
+		"index": 29,
+		"class": "objet_textuel",
+		"name": "stable surface events",
+		"filters": ["Tramway",
+		"Mimetic aesthetics"]
+	},
+	{
+		"index": 30,
+		"class": "section",
+		"name": 0,
+		"debut": "P 2 – L 12",
+		"fin": "P 2 – L 18",
+		"filters": ["Tramway",
+		"Mimetic aesthetics"]
+	},
+	{
+		"index": 31,
+		"class": "concept",
+		"name": "Mimetic aesthetics",
+		"definition": "aesthetics of surface going with the information on the technical context needed to minimise lability.",
+		"filters": ["Tramway",
+		"Mimetic aesthetics"]
+	},
+	{
+		"index": 32,
+		"class": "auteur",
+		"name": "L. Solaas",
+		"filters": ["Migraciones",
+		"Out of bounds",
+		"Politics of event",
+		"Translanguage politics"]
+	},
+	{
+		"index": 33,
+		"class": "version",
+		"name": "www.solaas.com.ar/migraciones/",
+		"date": "07/2005",
+		"duree": "infinie",
+		"filters": ["Migraciones",
+		"Out of bounds",
+		"Politics of event",
+		"Translanguage politics"]
+	},
+	{
+		"index": 34,
+		"class": "essence",
+		"name": "Migraciones",
+		"filters": ["Migraciones",
+		"Out of bounds",
+		"Politics of event",
+		"Translanguage politics"]
+	},
+	{
+		"index": 35,
+		"class": "objet_textuel",
+		"name": "tangling languages and letters which migrates",
+		"filters": ["Migraciones",
+		"Out of bounds"]
+	},
+	{
+		"index": 36,
+		"class": "document",
+		"name": "Out of Bounds",
+		"date": "31/12/2012",
+		"adresse": "",
+		"circonstance": "abstract ELO 2013",
+		"filters": ["Migraciones",
+		"Out of bounds",
+		"Politics of event",
+		"Translanguage politics"]
+	},
+	{
+		"index": 37,
+		"class": "section",
+		"name": 0,
+		"debut": "P 1 - L 27",
+		"fin": "P 1 – L 34",
+		"filters": ["Migraciones",
+		"Out of bounds"]
+	},
+	{
+		"index": 38,
+		"class": "concept",
+		"name": "Out of bounds",
+		"definition": "dissolution of boundaries between artistic languages and disciplines which, despite the path opened by 20th century avant-gardes and followed many times, it still implies a sort of 'legal transgression'.",
+		"filters": ["Migraciones",
+		"Out of bounds"]
+	},
+	{
+		"index": 39,
+		"class": "auteur",
+		"name": "C. Kozak",
+		"filters": ["Migraciones",
+		"Out of bounds",
+		"Politics of event",
+		"Translanguage politics"]
+	},
+	{
+		"index": 40,
+		"class": "objet_textuel",
+		"name": "randomly texts",
+		"filters": ["Migraciones",
+		"Politics of event"]
+	},
+	{
+		"index": 41,
+		"class": "section",
+		"name": 1,
+		"debut": "P 2 - L 1",
+		"fin": "P2 - L 6",
+		"filters": ["Migraciones",
+		"Politics of event"]
+	},
+	{
+		"index": 42,
+		"class": "concept",
+		"name": "Politics of event",
+		"definition": "the possibility of producing different meanings outside the hegemonic paths of meaning within culture. In addition, the possibility of change in a world where, following the logic of merchandise, everything seems to change but nothing that matters really changes.",
+		"filters": ["Migraciones",
+		"Politics of event"]
+	},
+	{
+		"index": 43,
+		"class": "objet_textuel",
+		"name": "the two source texts",
+		"filters": ["Migraciones",
+		"Translanguage politics"]
+	},
+	{
+		"index": 44,
+		"class": "section",
+		"name": 2,
+		"debut": "P 2 - L 7",
+		"fin": "P 2 - L 27",
+		"filters": ["Migraciones",
+		"Translanguage politics"]
+	},
+	{
+		"index": 45,
+		"class": "concept",
+		"name": "Translanguage politics",
+		"definition": "Geopolitics of e-literature (including geopolitics of creation new works and geopolitics of translation) which assume contexts of migration, globalization, glocalization and false transparency within ciberculture. A kind of textual politics which comment, reflect on and even deviate globalized flows in order to expose the false ecumenism of the globalized era. It is also a kind of textual politics which respond in a constructive or utopian manner, to that false transparency.",
+		"filters": ["Migraciones",
+		"Translanguage politics"]
+	},
+	{
+		"index": 46,
+		"class": "auteur",
+		"name": "S. Jackson",
+		"filters": ["Patchwork Girl",
+		"Syncope",
+		"Signature",
+		"Spectrality",
+		"Phallogocentrism",
+		"Supplement"]
+	},
+	{
+		"index": 47,
+		"class": "version",
+		"name": "Eastgate Systems",
+		"date": "1995",
+		"duree": "",
+		"filters": ["Patchwork Girl",
+		"Syncope",
+		"Signature",
+		"Spectrality",
+		"Phallogocentrism",
+		"Supplement"]
+	},
+	{
+		"index": 48,
+		"class": "essence",
+		"name": "Patchwork Girl",
+		"filters": ["Patchwork Girl",
+		"Syncope",
+		"Signature",
+		"Spectrality",
+		"Phallogocentrism",
+		"Supplement"]
+	},
+	{
+		"index": 49,
+		"class": "objet_textuel",
+		"name": "hidden hyperlinks",
+		"filters": ["Patchwork Girl",
+		"Syncope"]
+	},
+	{
+		"index": 50,
+		"class": "document",
+		"name": "Interrupting D: Patchwork Girl’s Syncopated Body",
+		"date": "2009",
+		"adresse": "www.cairn.info/revue-francaise-d-etudes-americaines-2009-3-page-72.htm",
+		"circonstance": "Article dans Revue française d’études américaines",
+		"filters": ["Patchwork Girl",
+		"Syncope",
+		"Signature",
+		"Spectrality",
+		"Phallogocentrism",
+		"Supplement"]
+	},
+	{
+		"index": 51,
+		"class": "section",
+		"name": 0,
+		"debut": "P 1 – L13",
+		"fin": "P 1 – L 31",
+		"filters": ["Patchwork Girl",
+		"Syncope"]
+	},
+	{
+		"index": 52,
+		"class": "concept",
+		"name": "Syncope",
+		"definition": "The transubstantiation of fashion consists too often in making discourse's undecidability appear before itself, in presenting it (and, hence, in making one believe that one has mastered it) as an instance-a force, a figure, a thing, what have you-that comes to it from outside.",
+		"filters": ["Patchwork Girl",
+		"Syncope"]
+	},
+	{
+		"index": 53,
+		"class": "auteur",
+		"name": "J. Nancy",
+		"filters": ["Patchwork Girl",
+		"Syncope"]
+	},
+	{
+		"index": 54,
+		"class": "auteur",
+		"name": "A. Regnauld",
+		"filters": ["Patchwork Girl",
+		"Syncope",
+		"Signature",
+		"Spectrality",
+		"Phallogocentrism",
+		"Supplement"]
+	},
+	{
+		"index": 55,
+		"class": "section",
+		"name": 1,
+		"debut": "P 1 – L 35",
+		"fin": "P 2 – L 3",
+		"filters": ["Patchwork Girl",
+		"Signature"]
+	},
+	{
+		"index": 56,
+		"class": "concept",
+		"name": "Signature",
+		"definition": "By definition, a written signature implies the actual or empirical nonpresence of the signer. But, it will be said, it also marks and retains his having-been-present in a past now, which will remain a future now, and therefore in a now in general, in the transcendental form of nowness (maintenance). This general maintenance is somehow inscribed, stapled to present punctuality, always evident and always singular, in the form of the signature. This is the enigmatic originality of every paraph. For the attachment to the source to occur, the absolute singularity of an even of the signature and of a form of the signature must be retained: the pure reproducibility of a pure event.",
+		"filters": ["Patchwork Girl",
+		"Signature"]
+	},
+	{
+		"index": 57,
+		"class": "auteur",
+		"name": "J. Derrida",
+		"filters": ["Patchwork Girl",
+		"Signature",
+		"Spectrality",
+		"Phallogocentrism",
+		"Supplement"]
+	},
+	{
+		"index": 58,
+		"class": "objet_textuel",
+		"name": "“Interrupting D”",
+		"filters": ["Patchwork Girl",
+		"Signature",
+		"Supplement"]
+	},
+	{
+		"index": 59,
+		"class": "section",
+		"name": 2,
+		"debut": "P 2 – L 4",
+		"fin": "P 2 - L 7",
+		"filters": ["Patchwork Girl",
+		"Spectrality"]
+	},
+	{
+		"index": 60,
+		"class": "concept",
+		"name": "Spectrality",
+		"definition": "In the series of more or less equivalent words that accurately designate haunting, spectre, as distinct from ghost [revenant], speaks of the spectacle. The spectre is first and foremost something visible. It is of the visible, but of the invisible visible, it is the visibility of a body which is not present in flesh and blood. It resists the intuition to which it presents itself, it is not tangible. [...] The spectre is not simply this visible invisible that I can see, it is someone who watches or concerns me without any possible reciprocity, and who therefore makes the law when I am blind, blind by situation. The spectre enjoys the right of absolute inspection. He is the right of inspection itself. And this is why I am an inheritor: the other comes before me, I who am before him, I who am because of him, owing to him [l’autre est avant moi devant moi qui suis devant lui], owning him obedience, [lui devant obéissance], incapable of exchanging with him (not even a glance).",
+		"filters": ["Patchwork Girl",
+		"Spectrality"]
+	},
+	{
+		"index": 61,
+		"class": "objet_textuel",
+		"name": "ghostwriting",
+		"filters": ["Patchwork Girl",
+		"Spectrality"]
+	},
+	{
+		"index": 62,
+		"class": "section",
+		"name": 3,
+		"debut": "P 2 – L 8",
+		"fin": "P 2 - L 13",
+		"filters": ["Patchwork Girl",
+		"Phallogocentrism"]
+	},
+	{
+		"index": 63,
+		"class": "concept",
+		"name": "Phallogocentrism",
+		"definition": "The privileging of masculinity in the construction of meaning; phallocentrism with a view to logocentrism. // Logocentrism and the metaphysics of presence are identified with “the exigent, powerful, systematic, and irrepressible desire [for the transcendental signifier]” which would “place a reassuring end to the reference from sign to sign.”",
+		"filters": ["Patchwork Girl",
+		"Phallogocentrism"]
+	},
+	{
+		"index": 64,
+		"class": "objet_textuel",
+		"name": "“Plato’s Pharmacy”",
+		"filters": ["Patchwork Girl",
+		"Phallogocentrism"]
+	},
+	{
+		"index": 65,
+		"class": "section",
+		"name": 4,
+		"debut": "P 2 – L 13",
+		"fin": "P 2 - L 15",
+		"filters": ["Patchwork Girl",
+		"Supplement"]
+	},
+	{
+		"index": 66,
+		"class": "concept",
+		"name": "Supplement",
+		"definition": "But the supplement supplements. It adds only to replace. It intervenes or insinuates itself in-the-place-of; if it fills, it is as if one fills a void. If it represents and makes an image, it is by the anterior default of a presence. Compensatory [suppléant] and vicarious, the supplément is an adjunct, a subaltern instance which takes-(the)-place [tient-lieu]. As substitute, it is not simply added to the positivity of a presence, it produces no relief, its place is assigned in the structure by the mark of an emptiness. Somewhere, something can be filled up of itself, can accomplish itself, only by allowing itself to be filled through sign and proxy. The sign is always the supplement of the thing itself.",
+		"filters": ["Patchwork Girl",
+		"Supplement"]
+	},
+	{
+		"index": 67,
+		"class": "auteur",
+		"name": "Strasser",
+		"filters": ["In the white darkness",
+		"Paratext",
+		"Secondary revision",
+		"Deferral",
+		"Mnemotechics",
+		"Hegemony"]
+	},
+	{
+		"index": 68,
+		"class": "version",
+		"name": "nonfinito.de/ii",
+		"date": "01/2004",
+		"duree": "infinie",
+		"filters": ["In the white darkness",
+		"Paratext",
+		"Secondary revision",
+		"Deferral",
+		"Mnemotechics",
+		"Hegemony"]
+	},
+	{
+		"index": 69,
+		"class": "essence",
+		"name": "In the white darkness",
+		"filters": ["In the white darkness",
+		"Paratext",
+		"Secondary revision",
+		"Deferral",
+		"Mnemotechics",
+		"Hegemony"]
+	},
+	{
+		"index": 70,
+		"class": "objet_textuel",
+		"name": "polka dots",
+		"filters": ["In the white darkness",
+		"Paratext"]
+	},
+	{
+		"index": 71,
+		"class": "document",
+		"name": "Notes-WhiteDarkness",
+		"date": "30/10/2011",
+		"adresse": "",
+		"circonstance": "notes",
+		"filters": ["In the white darkness",
+		"Paratext",
+		"Secondary revision",
+		"Deferral",
+		"Mnemotechics",
+		"Hegemony"]
+	},
+	{
+		"index": 72,
+		"class": "section",
+		"name": 0,
+		"debut": "P 1 - L 14",
+		"fin": "P 1 - L 16",
+		"filters": ["In the white darkness",
+		"Paratext"]
+	},
+	{
+		"index": 73,
+		"class": "concept",
+		"name": "Paratext",
+		"definition": "all that is around the text but not part of the text itself. It displace the centrality of the textual work for other writings that appear marginal and obscured but in fact determine the conditions of reception and reading.",
+		"filters": ["In the white darkness",
+		"Paratext"]
+	},
+	{
+		"index": 74,
+		"class": "auteur",
+		"name": "Roy-Bishop-Baldwin",
+		"filters": ["In the white darkness",
+		"Paratext",
+		"Secondary revision",
+		"Deferral",
+		"Mnemotechics",
+		"Hegemony"]
+	},
+	{
+		"index": 75,
+		"class": "objet_textuel",
+		"name": "pulsing dots",
+		"filters": ["In the white darkness",
+		"Secondary revision",
+		"Deferral"]
+	},
+	{
+		"index": 76,
+		"class": "section",
+		"name": 1,
+		"debut": "P 1 - L 18",
+		"fin": "P 1 - L 18",
+		"filters": ["In the white darkness",
+		"Secondary revision"]
+	},
+	{
+		"index": 77,
+		"class": "concept",
+		"name": "Secondary revision",
+		"definition": "all narrative involves selection and ordering of events. The sequence of narrative is always a construction or secondary revision, where the primary or originary event/scene remains inaccessible except through the telling of narrative.",
+		"filters": ["In the white darkness",
+		"Secondary revision"]
+	},
+	{
+		"index": 78,
+		"class": "auteur",
+		"name": "S. Freud",
+		"filters": ["In the white darkness",
+		"Secondary revision"]
+	},
+	{
+		"index": 79,
+		"class": "section",
+		"name": 2,
+		"debut": "P 1 - L 19",
+		"fin": "P 1 - L 22",
+		"filters": ["In the white darkness",
+		"Deferral"]
+	},
+	{
+		"index": 80,
+		"class": "concept",
+		"name": "Deferral",
+		"definition": "signification is never present and final but occurs through infinite differentiation. The text is this web of deferral. Deferral is life itself.",
+		"filters": ["In the white darkness",
+		"Deferral"]
+	},
+	{
+		"index": 81,
+		"class": "objet_textuel",
+		"name": "juxtaposed dots",
+		"filters": ["In the white darkness",
+		"Mnemotechics"]
+	},
+	{
+		"index": 82,
+		"class": "section",
+		"name": 3,
+		"debut": "P 1 - L 27",
+		"fin": "P 1 - L 28",
+		"filters": ["In the white darkness",
+		"Mnemotechics"]
+	},
+	{
+		"index": 83,
+		"class": "concept",
+		"name": "Mnemotechics",
+		"definition": "cultural techniques for remembering, as distinct from the human faculty of memory. It is extremely difficult to differentiate these techniques from the spontaneous act of memory. In practice, technique builds on the natural and the natural is always found to be technical.",
+		"filters": ["In the white darkness",
+		"Mnemotechics"]
+	},
+	{
+		"index": 84,
+		"class": "objet_textuel",
+		"name": "multiple images",
+		"filters": ["In the white darkness",
+		"Hegemony"]
+	},
+	{
+		"index": 85,
+		"class": "section",
+		"name": 4,
+		"debut": "P 2 - L 1",
+		"fin": "P 2 - L 3",
+		"filters": ["In the white darkness",
+		"Hegemony"]
+	},
+	{
+		"index": 86,
+		"class": "concept",
+		"name": "Hegemony",
+		"definition": "controls and contains through the exercise of cultural, institutional, and other forms of indirect power. It is infinitely flexible, able to normalize any deviation. All transgression - any possible transgression - is reincorporated within the hegemonic regime.",
+		"filters": ["In the white darkness",
+		"Hegemony"]
+	},
+	{
+		"index": 87,
+		"class": "objet_textuel",
+		"name": "persistance d’images fantômes",
+		"filters": ["Tramway",
+		"Retinal persistence"]
+	},
+	{
+		"index": 88,
+		"class": "document",
+		"name": "Tramway by Alexandra Saemmer",
+		"date": "21/01/2013",
+		"adresse": "",
+		"circonstance": "",
+		"filters": ["Tramway",
+		"Retinal persistence"]
+	},
+	{
+		"index": 89,
+		"class": "section",
+		"name": 0,
+		"debut": "P 2 – L 19",
+		"fin": "P 2 – L 19",
+		"filters": ["Tramway",
+		"Retinal persistence"]
+	},
+	{
+		"index": 90,
+		"class": "concept",
+		"name": "Retinal persistence",
+		"definition": "(négative) : on garde imprimée une trace sombre de l'image dans la vision durant plusieurs secondes.",
+		"filters": ["Tramway",
+		"Retinal persistence"]
+	},
+	{
+		"index": 91,
+		"class": "auteur",
+		"name": "M. Di Crosta",
+		"filters": ["Tramway",
+		"Retinal persistence"]
+	},
+	{
+		"index": 92,
+		"class": "auteur",
+		"name": "Wikipedia",
+		"filters": ["Tramway",
+		"Retinal persistence"]
+	}],
+	"links": [{
+		"source": 0,
+		"target": 1,
+		"value": "cree"
+	},
+	{
+		"source": 2,
+		"target": 1,
+		"value": "possede"
+	},
+	{
+		"source": 1,
+		"target": 3,
+		"value": "possede"
+	},
+	{
+		"source": 3,
+		"target": 4,
+		"value": "stimule"
+	},
+	{
+		"source": 3,
+		"target": 8,
+		"value": "stimule"
+	},
+	{
+		"source": 5,
+		"target": 6,
+		"value": "possede"
+	},
+	{
+		"source": 5,
+		"target": 9,
+		"value": "possede"
+	},
+	{
+		"source": 0,
+		"target": 6,
+		"value": "produit"
+	},
+	{
+		"source": 0,
+		"target": 9,
+		"value": "produit"
+	},
+	{
+		"source": 6,
+		"target": 7,
+		"value": "developpe"
+	},
+	{
+		"source": 9,
+		"target": 10,
+		"value": "developpe"
+	},
+	{
+		"source": 0,
+		"target": 7,
+		"value": "definit"
+	},
+	{
+		"source": 11,
+		"target": 10,
+		"value": "definit"
+	},
+	{
+		"source": 6,
+		"target": 4,
+		"value": "traite"
+	},
+	{
+		"source": 9,
+		"target": 8,
+		"value": "traite"
+	},
+	{
+		"source": 16,
+		"target": 12,
+		"value": "stimule"
+	},
+	{
+		"source": 5,
+		"target": 13,
+		"value": "possede"
+	},
+	{
+		"source": 15,
+		"target": 13,
+		"value": "produit"
+	},
+	{
+		"source": 13,
+		"target": 14,
+		"value": "developpe"
+	},
+	{
+		"source": 15,
+		"target": 14,
+		"value": "definit"
+	},
+	{
+		"source": 13,
+		"target": 12,
+		"value": "traite"
+	},
+	{
+		"source": 1,
+		"target": 16,
+		"value": "possede"
+	},
+	{
+		"source": 16,
+		"target": 17,
+		"value": "stimule"
+	},
+	{
+		"source": 5,
+		"target": 18,
+		"value": "possede"
+	},
+	{
+		"source": 15,
+		"target": 18,
+		"value": "produit"
+	},
+	{
+		"source": 18,
+		"target": 19,
+		"value": "developpe"
+	},
+	{
+		"source": 15,
+		"target": 19,
+		"value": "definit"
+	},
+	{
+		"source": 18,
+		"target": 17,
+		"value": "traite"
+	},
+	{
+		"source": 16,
+		"target": 20,
+		"value": "stimule"
+	},
+	{
+		"source": 5,
+		"target": 21,
+		"value": "possede"
+	},
+	{
+		"source": 15,
+		"target": 21,
+		"value": "produit"
+	},
+	{
+		"source": 21,
+		"target": 22,
+		"value": "developpe"
+	},
+	{
+		"source": 15,
+		"target": 22,
+		"value": "definit"
+	},
+	{
+		"source": 21,
+		"target": 20,
+		"value": "traite"
+	},
+	{
+		"source": 16,
+		"target": 23,
+		"value": "stimule"
+	},
+	{
+		"source": 5,
+		"target": 24,
+		"value": "possede"
+	},
+	{
+		"source": 15,
+		"target": 24,
+		"value": "produit"
+	},
+	{
+		"source": 24,
+		"target": 25,
+		"value": "developpe"
+	},
+	{
+		"source": 15,
+		"target": 25,
+		"value": "definit"
+	},
+	{
+		"source": 24,
+		"target": 23,
+		"value": "traite"
+	},
+	{
+		"source": 16,
+		"target": 26,
+		"value": "stimule"
+	},
+	{
+		"source": 5,
+		"target": 27,
+		"value": "possede"
+	},
+	{
+		"source": 15,
+		"target": 27,
+		"value": "produit"
+	},
+	{
+		"source": 27,
+		"target": 28,
+		"value": "developpe"
+	},
+	{
+		"source": 15,
+		"target": 28,
+		"value": "definit"
+	},
+	{
+		"source": 27,
+		"target": 26,
+		"value": "traite"
+	},
+	{
+		"source": 3,
+		"target": 29,
+		"value": "stimule"
+	},
+	{
+		"source": 5,
+		"target": 30,
+		"value": "possede"
+	},
+	{
+		"source": 0,
+		"target": 30,
+		"value": "produit"
+	},
+	{
+		"source": 30,
+		"target": 31,
+		"value": "developpe"
+	},
+	{
+		"source": 0,
+		"target": 31,
+		"value": "definit"
+	},
+	{
+		"source": 30,
+		"target": 29,
+		"value": "traite"
+	},
+	{
+		"source": 32,
+		"target": 33,
+		"value": "cree"
+	},
+	{
+		"source": 34,
+		"target": 33,
+		"value": "possede"
+	},
+	{
+		"source": 33,
+		"target": 3,
+		"value": "possede"
+	},
+	{
+		"source": 3,
+		"target": 35,
+		"value": "stimule"
+	},
+	{
+		"source": 36,
+		"target": 37,
+		"value": "possede"
+	},
+	{
+		"source": 39,
+		"target": 37,
+		"value": "produit"
+	},
+	{
+		"source": 37,
+		"target": 38,
+		"value": "developpe"
+	},
+	{
+		"source": 39,
+		"target": 38,
+		"value": "definit"
+	},
+	{
+		"source": 37,
+		"target": 35,
+		"value": "traite"
+	},
+	{
+		"source": 3,
+		"target": 40,
+		"value": "stimule"
+	},
+	{
+		"source": 36,
+		"target": 41,
+		"value": "possede"
+	},
+	{
+		"source": 39,
+		"target": 41,
+		"value": "produit"
+	},
+	{
+		"source": 41,
+		"target": 42,
+		"value": "developpe"
+	},
+	{
+		"source": 39,
+		"target": 42,
+		"value": "definit"
+	},
+	{
+		"source": 41,
+		"target": 40,
+		"value": "traite"
+	},
+	{
+		"source": 3,
+		"target": 43,
+		"value": "stimule"
+	},
+	{
+		"source": 36,
+		"target": 44,
+		"value": "possede"
+	},
+	{
+		"source": 39,
+		"target": 44,
+		"value": "produit"
+	},
+	{
+		"source": 44,
+		"target": 45,
+		"value": "developpe"
+	},
+	{
+		"source": 39,
+		"target": 45,
+		"value": "definit"
+	},
+	{
+		"source": 44,
+		"target": 43,
+		"value": "traite"
+	},
+	{
+		"source": 46,
+		"target": 47,
+		"value": "cree"
+	},
+	{
+		"source": 48,
+		"target": 47,
+		"value": "possede"
+	},
+	{
+		"source": 47,
+		"target": 3,
+		"value": "possede"
+	},
+	{
+		"source": 3,
+		"target": 49,
+		"value": "stimule"
+	},
+	{
+		"source": 50,
+		"target": 51,
+		"value": "possede"
+	},
+	{
+		"source": 54,
+		"target": 51,
+		"value": "produit"
+	},
+	{
+		"source": 51,
+		"target": 52,
+		"value": "developpe"
+	},
+	{
+		"source": 53,
+		"target": 52,
+		"value": "definit"
+	},
+	{
+		"source": 51,
+		"target": 49,
+		"value": "traite"
+	},
+	{
+		"source": 50,
+		"target": 55,
+		"value": "possede"
+	},
+	{
+		"source": 54,
+		"target": 55,
+		"value": "produit"
+	},
+	{
+		"source": 55,
+		"target": 56,
+		"value": "developpe"
+	},
+	{
+		"source": 57,
+		"target": 56,
+		"value": "definit"
+	},
+	{
+		"source": 55,
+		"target": 58,
+		"value": "traite"
+	},
+	{
+		"source": 3,
+		"target": 58,
+		"value": "stimule"
+	},
+	{
+		"source": 50,
+		"target": 59,
+		"value": "possede"
+	},
+	{
+		"source": 54,
+		"target": 59,
+		"value": "produit"
+	},
+	{
+		"source": 59,
+		"target": 60,
+		"value": "developpe"
+	},
+	{
+		"source": 57,
+		"target": 60,
+		"value": "definit"
+	},
+	{
+		"source": 59,
+		"target": 61,
+		"value": "traite"
+	},
+	{
+		"source": 3,
+		"target": 61,
+		"value": "stimule"
+	},
+	{
+		"source": 50,
+		"target": 62,
+		"value": "possede"
+	},
+	{
+		"source": 54,
+		"target": 62,
+		"value": "produit"
+	},
+	{
+		"source": 62,
+		"target": 63,
+		"value": "developpe"
+	},
+	{
+		"source": 57,
+		"target": 63,
+		"value": "definit"
+	},
+	{
+		"source": 62,
+		"target": 64,
+		"value": "traite"
+	},
+	{
+		"source": 3,
+		"target": 64,
+		"value": "stimule"
+	},
+	{
+		"source": 50,
+		"target": 65,
+		"value": "possede"
+	},
+	{
+		"source": 54,
+		"target": 65,
+		"value": "produit"
+	},
+	{
+		"source": 65,
+		"target": 66,
+		"value": "developpe"
+	},
+	{
+		"source": 57,
+		"target": 66,
+		"value": "definit"
+	},
+	{
+		"source": 65,
+		"target": 58,
+		"value": "traite"
+	},
+	{
+		"source": 3,
+		"target": 58,
+		"value": "stimule"
+	},
+	{
+		"source": 67,
+		"target": 68,
+		"value": "cree"
+	},
+	{
+		"source": 69,
+		"target": 68,
+		"value": "possede"
+	},
+	{
+		"source": 68,
+		"target": 3,
+		"value": "possede"
+	},
+	{
+		"source": 3,
+		"target": 70,
+		"value": "stimule"
+	},
+	{
+		"source": 71,
+		"target": 72,
+		"value": "possede"
+	},
+	{
+		"source": 74,
+		"target": 72,
+		"value": "produit"
+	},
+	{
+		"source": 72,
+		"target": 73,
+		"value": "developpe"
+	},
+	{
+		"source": 72,
+		"target": 70,
+		"value": "traite"
+	},
+	{
+		"source": 3,
+		"target": 75,
+		"value": "stimule"
+	},
+	{
+		"source": 71,
+		"target": 76,
+		"value": "possede"
+	},
+	{
+		"source": 74,
+		"target": 76,
+		"value": "produit"
+	},
+	{
+		"source": 76,
+		"target": 77,
+		"value": "developpe"
+	},
+	{
+		"source": 76,
+		"target": 75,
+		"value": "traite"
+	},
+	{
+		"source": 78,
+		"target": 77,
+		"value": "definit"
+	},
+	{
+		"source": 71,
+		"target": 79,
+		"value": "possede"
+	},
+	{
+		"source": 74,
+		"target": 79,
+		"value": "produit"
+	},
+	{
+		"source": 79,
+		"target": 80,
+		"value": "developpe"
+	},
+	{
+		"source": 79,
+		"target": 75,
+		"value": "traite"
+	},
+	{
+		"source": 3,
+		"target": 81,
+		"value": "stimule"
+	},
+	{
+		"source": 71,
+		"target": 82,
+		"value": "possede"
+	},
+	{
+		"source": 74,
+		"target": 82,
+		"value": "produit"
+	},
+	{
+		"source": 82,
+		"target": 83,
+		"value": "developpe"
+	},
+	{
+		"source": 82,
+		"target": 81,
+		"value": "traite"
+	},
+	{
+		"source": 3,
+		"target": 84,
+		"value": "stimule"
+	},
+	{
+		"source": 71,
+		"target": 85,
+		"value": "possede"
+	},
+	{
+		"source": 74,
+		"target": 85,
+		"value": "produit"
+	},
+	{
+		"source": 85,
+		"target": 86,
+		"value": "developpe"
+	},
+	{
+		"source": 85,
+		"target": 84,
+		"value": "traite"
+	},
+	{
+		"source": 3,
+		"target": 87,
+		"value": "stimule"
+	},
+	{
+		"source": 88,
+		"target": 89,
+		"value": "possede"
+	},
+	{
+		"source": 89,
+		"target": 90,
+		"value": "developpe"
+	},
+	{
+		"source": 89,
+		"target": 87,
+		"value": "traite"
+	},
+	{
+		"source": 91,
+		"target": 89,
+		"value": "produit"
+	},
+	{
+		"source": 92,
+		"target": 90,
+		"value": "definit"
+	}]
+}
